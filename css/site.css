@@ -76,6 +76,9 @@ h3 { font-size: 28px; line-height: 32px; font-weight: 600; }
 .split { display: grid; gap: var(--s-4); }
 @media (min-width: 840px) { .split { grid-template-columns: 4fr 8fr; gap: var(--s-6); } }
 
+/* Demo banner */
+.demo-banner { margin: 0; padding: 4px var(--s-3); background: var(--line); color: var(--muted); font: 600 12px/16px var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; text-align: center; max-width: none; }
+
 /* Header */
 .site-header { position: sticky; top: 0; z-index: 50; background: var(--bg); border-bottom: 1px solid var(--line); }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; min-height: var(--header-h); }
